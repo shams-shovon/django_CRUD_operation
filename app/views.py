@@ -4,5 +4,8 @@ from .forms import UserForm
 
 def create(request):
     form = UserForm()
+
+    print(request.POST)
+
     context = {'form': form}
     return render(request, 'app/create.html',context)
