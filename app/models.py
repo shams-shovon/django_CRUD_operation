@@ -26,5 +26,3 @@ class UserModel(models.Model):
     )
     language = MultiSelectField(max_length=20, null=True, blank=True, choices=LANGUAGES)
     date_created = models.DateTimeField(auto_now_add=True)
-
-
