@@ -5,7 +5,10 @@ from .forms import UserForm
 def create(request):
     form = UserForm()
 
-    print(request.POST)
+    if request.method == 'POST':
+        form = UserForm(request.POST)
+        if form.is_valid():
+            form.save()
 
     context = {'form': form}
     return render(request, 'app/create.html',context)

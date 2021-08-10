@@ -18,11 +18,11 @@ class UserModel(models.Model):
         ('Other', 'Other'),
     )
     gender = models.CharField(max_length=10, choices=GENDERS)
-    address = models.TextField(null=True, blank=True)
+    address = models.TextField(max_length=100, null=True, blank=True)
     LANGUAGES = (
         ('English', 'English'),
         ('French', 'French'),
         ('German', 'German'),
     )
-    language = MultiSelectField(max_length=20, null=True, blank=True, choices=LANGUAGES)
+    language = MultiSelectField(max_length=150, null=True, blank=True, choices=LANGUAGES)
     date_created = models.DateTimeField(auto_now_add=True)
