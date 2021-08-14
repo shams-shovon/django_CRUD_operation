@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88783348-4af2-4c12-89d0-ff9aa848007b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/employee_project/employee_register/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee_project/employee_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee_project/employee_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee_project/employee_register/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee_project/employee_register/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee_project/employee_register/templates/employee_register/employee_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/employee_project/employee_register/templates/employee_register/employee_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_project/employee_register/templates/employee_register/employee_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/employee_project/employee_register/templates/employee_register/employee_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee_project/employee_register/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee_project/employee_register/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628903813098</updated>
-      <workItem from="1628903814488" duration="17421000" />
+      <workItem from="1628903814488" duration="19276000" />
     </task>
     <servers />
   </component>
