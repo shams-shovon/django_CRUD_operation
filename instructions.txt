@@ -1,0 +1,22 @@
+1. Open anaconda prompt
+	- Go to project directory
+	- Create environment
+	- Activate environment
+	- Install Django
+	- django-admin startproject employee_project
+	- cd employee_project
+
+2. Open directory using code editor
+	- python manage.py runserver(check server)
+	- python manage.py startapp employee_register
+
+3. Create database & add in settings.py
+	-python manage.py migrate
+
+4. Make models.py
+	- python manage.py makemigrations employee_register
+	- python manage.py sqlmigrate employee_register 0001
+	- python manage.py migrate
+
+5.
+	
